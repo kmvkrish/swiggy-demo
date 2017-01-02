@@ -1,0 +1,54 @@
+<div class="container">
+	<p>{{restaurant.name}}</p>
+	<small>{{restaurant.type}}</small>
+	<i class="tiny material-icons">star</i>{{restaurant.rating}}
+	<div class="row">
+		<div class="col s12 m8">
+			<div class="input-field col s12 m12">
+		      	<input id="itemName" type="text" name="itemName" ng-model="itemName" placeholder="search for item">
+		      	<label class="active" for="itemName"></label>
+		    </div>
+			<div class="row">
+				<div class="col s12 m4" ng-repeat="item in restaurant.items | filter:itemName">
+					<div class="card">
+						<div class="card-image">
+							<img ng-src="{{item.image}}" class="responsive"/>
+							<span>{{item.name}}</span>
+						</div>
+						<div class="card-action">
+							<button class="btn-flat" style="padding: 0;" ng-class="{'disabled': !item.cart_quantity}" ng-click="removeItemFromCart(item)">
+								<i class="material-icons">remove</i>
+							</button>
+							<span>{{item.cart_quantity}}</span>
+							<button class="btn-flat" style="padding: 0;" ng-click="addItemToCart(item)"><i class="material-icons">add</i></button>
+							<span class="secondary-content">{{item.price | currency}}</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col s12  offset-1 m4">
+			<div class="card hoverable">
+				<div class="cart-header">
+					<p>Your Cart</p>
+				</div>
+				<div class="cart-body">
+					<ul class="collection">
+						<li class="collection-item avatar" ng-repeat="item in restaurant.items" ng-show="item.cart_quantity">
+							<img ng-src="{{item.image}}" class="responsive circle"/>
+							<span class="title">{{item.name}}</span>
+							<p>
+								<button class="btn-flat" style="padding: 0;" ng-class="{'disabled': !item.cart_quantity}" ng-click="removeItemFromCart(item)">
+									<i class="material-icons">remove</i>
+								</button>
+								<span>{{item.cart_quantity}}</span>
+								<button class="btn-flat" style="padding: 0;" ng-click="addItemToCart(item)"><i class="material-icons">add</i></button>
+							</p>
+							<span class="secondary-content">{{item.price * item.cart_quantity}}</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,110 @@
+{
+	"restaurants": [
+		{
+			"name": "Hotel Sandarshini",
+			"type": "North Indian, Chinese, South",
+			"rating": 3.7,
+			"id": 1,
+			"image": "https://res.cloudinary.com/swiggy/image/upload/c_scale,f_auto,fl_lossy,h_134,q_80,w_269/qh92jzco8xy4ou7xlwv2",
+			"items": [
+				{
+					"name": "Idli",
+					"image": "https://res.cloudinary.com/swiggy/image/upload/c_fill,f_auto,fl_lossy,g_center,h_152,q_80,w_243/quvvqc5wijbbdyjkbsmx",
+					"price": 36,
+					"cart_quantity": 0
+				},
+				{
+					"name": "Sambar idly",
+					"image": "https://res.cloudinary.com/swiggy/image/upload/c_fill,f_auto,fl_lossy,g_center,h_152,q_80,w_243/oar6z8kgkpwibiziemin",
+					"price": 48,
+					"cart_quantity": 0
+				},
+				{
+					"name": "Plain Dosa",
+					"image": "https://res.cloudinary.com/swiggy/image/upload/c_fill,f_auto,fl_lossy,g_center,h_152,q_80,w_243/w0fk3gpjmptjuze4nyzj",
+					"price": 43,
+					"cart_quantity": 0
+				},
+				{
+					"name": "Masala Dosa",
+					"image": "https://res.cloudinary.com/swiggy/image/upload/c_fill,f_auto,fl_lossy,g_center,h_152,q_80,w_243/n39fkjqn0zgv68wadwkn",
+					"price": 55,
+					"cart_quantity": 0
+				},
+				{
+					"name": "Veg Manchurian",
+					"image": "https://res.cloudinary.com/swiggy/image/upload/c_fill,f_auto,fl_lossy,g_center,h_152,q_80,w_243/vomowgglhqileeqevwh3",
+					"price": 140,
+					"cart_quantity": 0
+				}
+			]
+		},
+		{
+			"id": 2,
+			"name": "Bikanerwala Food Court",
+			"image": "https://res.cloudinary.com/swiggy/image/upload/c_scale,f_auto,fl_lossy,h_134,q_80,w_269/o8rctkch9pmym5489ato",
+			"type": "Indian, Sweets, Pizza",
+			"rating": 3.9,
+			"items": [
+				{
+					"name": "Masala Dosa",
+					"image": "https://res.cloudinary.com/swiggy/image/upload/c_fill,f_auto,fl_lossy,g_center,h_152,q_80,w_243/ihydfavtajhuouteklnv",
+					"price": 140,
+					"cart_quantity": 0
+				},
+				{
+					"name": "Mixed Veg Uthappam",
+					"image": "https://res.cloudinary.com/swiggy/image/upload/c_fill,f_auto,fl_lossy,g_center,h_152,q_80,w_243/avaowp1r6ukmgelof5ee",
+					"price": 150,
+					"cart_quantity": 0
+				},
+				{
+					"name": "Idli Sambar",
+					"image": "https://res.cloudinary.com/swiggy/image/upload/c_fill,f_auto,fl_lossy,g_north,h_152,q_80,w_243/obogafijjkmq6kkzwdrf",
+					"price": 85,
+					"cart_quantity": 0
+				},
+				{
+					"name": "South Indian Platter",
+					"image": "https://res.cloudinary.com/swiggy/image/upload/c_fill,f_auto,fl_lossy,g_center,h_152,q_80,w_243/yzztbq8i8yl6jidgnnat",
+					"price": 248,
+					"cart_quantity": 0
+				}
+			]
+		},
+		{
+			"id": 3,
+			"name": "Subway",
+			"type": "American, Fast Food",
+			"rating": 4.0,
+			"image": "https://res.cloudinary.com/swiggy/image/upload/c_scale,f_auto,fl_lossy,h_134,q_80,w_269/sfskfevrmzx7rvndv0ew",
+			"items": [
+				{
+					"name": "Aloo Patty Sub",
+					"image": "https://res.cloudinary.com/swiggy/image/upload/c_fill,f_auto,fl_lossy,h_152,q_80,w_243/uh6ckyjr3gwheiphsywk",
+					"price": 135,
+					"cart_quantity": 0
+				},
+				{
+					"name": "Corn & Peas Sub (15cm/ 6inch)",
+					"image": "https://res.cloudinary.com/swiggy/image/upload/c_fill,f_auto,fl_lossy,h_152,q_80,w_243/x4am9i6pluivv57ug5v8",
+					"price": 135,
+					"cart_quantity": 0
+				},
+				{
+					"name": "Veggie Delite Salad",
+					"image": "https://res.cloudinary.com/swiggy/image/upload/c_fill,f_auto,fl_lossy,h_152,q_80,w_243/jtnqoduazxjz8zs6nbm6",
+					"price": 165,
+					"cart_quantity": 0
+				},
+				{
+					"name": "Chocolate Truffle",
+					"image": "https://res.cloudinary.com/swiggy/image/upload/c_fill,f_auto,fl_lossy,h_152,q_80,w_243/fli2j6yv7msc4n6p1bys",
+					"price": 70,
+					"cart_quantity": 0
+				}
+			]
+			
+		}
+	]
+}

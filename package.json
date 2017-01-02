@@ -1,0 +1,24 @@
+{
+  "name": "swiggy-demo",
+  "version": "1.0.0",
+  "description": "A demo app based on nodejs express and angularJS",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kmvkrish/swiggy-demo.git"
+  },
+  "homepage": "https://github.com/kmvkrish/swiggy-demo",
+  "keywords": [
+    "express",
+    "AngularJS"
+  ],
+  "author": "kmvkrish",
+  "license": "ISC"
+}
